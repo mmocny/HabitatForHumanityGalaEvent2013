@@ -20,30 +20,7 @@
 
     <link rel="stylesheet" href="css/topcoat-mobile-dark.min.css" type="text/css" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
-    <script>
-      window.onload = function() {
-        var indexItemElements = document.getElementsByClassName('item');
-        var anchorElements = document.getElementsByClassName('anchor');
-
-        // Map all the anchor elements.
-        var anchorMap = {};
-        for (var i = 0; i < anchorElements.length; i++) {
-          var anchor = anchorElements[i];
-          anchorMap[anchor.id] = anchor;
-        }
-
-        // Set up index item onclick listeners.
-        var scrollIntoView = function(id) {
-          anchorMap[id].scrollIntoView();
-        };
-        for (var i = 0; i < indexItemElements.length; i++) {
-          var indexItemElement = indexItemElements[i];
-          indexItemElement.onclick = (function(id) {
-            return function() { scrollIntoView(id); }
-          })(indexItemElement.id);
-        }
-      }
-    </script>
+    <script src="scrips/index.js" type="text/javascript"></script>
   </head>
   <body ng-app="habitat" ng-csp>
     <div class="timeline">
