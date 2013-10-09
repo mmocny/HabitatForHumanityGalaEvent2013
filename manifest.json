@@ -1,9 +1,9 @@
 {
-  "name": "YOUR APP HERE",
-  "description": "DESCRIPTION HERE",
+  "name": "HFHWR 25th Anniversary Gala",
+  "description": "Habitat for Humanity Waterloo Region Celebrates its 25th Anniversary",
   "manifest_version": 2,
   "minimum_chrome_version": "23",
-  "version": "0.1.1",
+  "version": "0.1",
   "offline_enabled": true,
   "icons": {
     "16": "assets/icons/icon16.png",
