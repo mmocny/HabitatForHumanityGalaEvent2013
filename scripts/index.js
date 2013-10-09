@@ -30,7 +30,7 @@ window.onload = function() {
   highlightIndexItem(0);
 
   // Set up a wall text onscroll listener.
-  var wallTextElement = document.getElementById('wall-text');
+  var wallTextElement = document.getElementsByClassName('text')[0];
   wallTextElement.onscroll = function() {
     var scrollPosition = wallTextElement.scrollTop;
     var topOfNextElement = 0;
