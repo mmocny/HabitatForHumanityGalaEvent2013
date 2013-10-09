@@ -23,7 +23,7 @@ div, img {
   top: 160px;
   bottom: 48px;
   position: fixed;
-  overflow: none;
+  width: 100%;
 }
 
 .toolbar {
