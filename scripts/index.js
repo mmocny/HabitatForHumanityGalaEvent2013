@@ -19,4 +19,38 @@ window.onload = function() {
       return function() { scrollIntoView(id); }
     })(indexItemElement.id);
   }
+
+  // Highlight the first index item.
+  var highlightIndexItem = function(i) {
+    indexItemElements[i].style.fontWeight = "bold";
+  }
+  var unhighlightIndexItem = function(i) {
+    indexItemElements[i].style.fontWeight = "normal";
+  }
+  highlightIndexItem(0);
+
+  // Set up a wall text onscroll listener.
+  var wallTextElement = document.getElementById('wall-text');
+  wallTextElement.onscroll = function() {
+    var scrollPosition = wallTextElement.scrollTop;
+    var topOfNextElement = 0;
+    var topElementIndex = -1;
+    for (var i = 0; i < anchorElements.length; i++) {
+      topOfNextElement += anchorElements[i].offsetHeight;
+      if (topOfNextElement > scrollPosition) {
+        topElementIndex = i;
+        break;
+      }
+    }
+
+    // Do whatever we need to do.
+    for (var i = 0; i < indexItemElements.length; i++) {
+      if (i === topElementIndex) {
+        highlightIndexItem(i);
+      } else {
+        unhighlightIndexItem(i);
+      }
+    }
+  }
 }
+
