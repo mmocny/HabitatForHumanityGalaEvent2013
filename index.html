@@ -21,8 +21,8 @@
 
     <link rel="stylesheet" href="css/topcoat-mobile-dark.min.css" type="text/css" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <script src="scripts/index.js" type="text/javascript"></script>
   </head>
-
   <body ng-app="habitat" ng-csp>
     <div class="timeline">
       Timeline content goes here.
@@ -30,8 +30,10 @@
 
     <div class="content" ng-view><!-- Leave me empty; Angular views go in here. --></div>
 
-    <div class="toolbar">
-      Bottom bar content goes here.
+    <div class="toolbar right">
+      <a href="/"><button class="topcoat-button">Home</button></a>
+      <a href="/agenda"><button class="topcoat-button">Agenda</button></a>
+      <a href="/sponsors"><button class="topcoat-button">Sponsors</button></a>
     </div>
   </body>
 </html>

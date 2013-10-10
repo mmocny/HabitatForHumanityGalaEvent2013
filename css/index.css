@@ -21,17 +21,18 @@ div, img {
 .content {
   background-color: white;
   top: 160px;
-  bottom: 48px;
+  bottom: 52px;
   position: fixed;
   width: 100%;
 }
 
 .toolbar {
   width: 100%;
-  height: 48px;
+  height: 50px;
   position: fixed;
   bottom: 0;
-  background-color: red;
+  background-color: black;
+  padding: 1px 0;
 }
 
 /* Content */
@@ -86,4 +87,36 @@ div, img {
 }
 
 .gallery > img {
+}
+
+.wall {
+  height: 100%;
+  width: 100%;
+}
+
+.wall .index {
+  float: left;
+  height: 100%;
+  width: 30%;
+  background-color: yellow;
+  overflow: scroll;
+}
+
+.wall .index .item {
+  width: 100%;
+  background-color: purple;
+}
+
+.wall .text {
+  float: right;
+  height: 100%;
+  width: 70%;
+  background-color: orange;
+  overflow: scroll;
+}
+
+.wall .text .anchor {
+  width: 100%;
+  height: 200px;
+  background-color: gray;
 }
