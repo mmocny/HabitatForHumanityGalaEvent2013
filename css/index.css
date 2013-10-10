@@ -38,9 +38,15 @@ div, img {
 /* Content */
 
 /* Walls */
+.wall { /* outer container */
+  height: 100%;
+  width: 100%;
+}
 
 .sidebar {
   float: left;
+  height: 100%;
+  overflow: scroll;
   width: 250px;
 }
 
@@ -60,7 +66,9 @@ div, img {
 }
 
 .wall-content {
+  height: 100%;
   margin-left: 255px;
+  overflow: scroll;
 }
 
 
@@ -82,41 +90,23 @@ div, img {
 .lightbox {
   position: relative;
   width: 100%;
-  overflow: scroll;
-  white-space: nowrap;
-}
-
-.gallery > img {
-}
-
-.wall {
   height: 100%;
-  width: 100%;
+  background-color: #111;
 }
 
-.wall .index {
-  float: left;
-  height: 100%;
-  width: 30%;
-  background-color: yellow;
-  overflow: scroll;
+.galleryimg {
+  margin: auto;
+  width: 400px;
+  height: 400px;
 }
 
-.wall .index .item {
-  width: 100%;
-  background-color: purple;
+div.layer {
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px;
+  font-size: 10px;
 }
 
-.wall .text {
-  float: right;
-  height: 100%;
-  width: 70%;
-  background-color: orange;
-  overflow: scroll;
+ul li {
+  list-style-type: none;
 }
 
-.wall .text .anchor {
-  width: 100%;
-  height: 200px;
-  background-color: gray;
-}

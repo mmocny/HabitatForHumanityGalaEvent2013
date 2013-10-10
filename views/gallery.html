@@ -1,7 +1,12 @@
 
-<ul rn-carousel rn-carousel-index="imgIndex">
-  <li ng-repeat="img in content">
-    <img src="/assets/gallery/{{img}}" />
+<ul rn-carousel class="image">
+  <!--
+  <li ng-repeat="image in content" style="background-image:url(/assets/gallery/{{ image }});">
+  </li>
+  -->
+  <li ng-repeat="image in content">
+    <div class="lightbox">
+      <img class="galleryimg" ng-src="/assets/gallery/{{ image }}" />
+    </div>
   </li>
 </ul>
-
