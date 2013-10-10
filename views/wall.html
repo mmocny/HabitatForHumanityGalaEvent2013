@@ -1,7 +1,7 @@
 <div class="wall">
   <div class="sidebar">
     <ul>
-      <li ng-repeat="a in anchors" ng-class="{ activeAnchor: activeAnchor == $index }" ng-click="showAnchor($index)">{{ a.text }}
+      <li ng-repeat="a in anchors" ng-class="{ activeAnchor: state.activeAnchor == $index }" ng-click="showAnchor($index)">{{ a.text }}
     </ul>
   </div>
 
