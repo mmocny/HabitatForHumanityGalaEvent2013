@@ -19,7 +19,7 @@ div, img {
 }
 
 .content {
-  background-color: blue;
+  background-color: white;
   top: 160px;
   bottom: 48px;
   position: fixed;
@@ -35,8 +35,51 @@ div, img {
 }
 
 /* Content */
-.gallery {
-  height: 100%;
+
+/* Walls */
+
+.sidebar {
+  float: left;
+  width: 250px;
+}
+
+.sidebar ul {
+  margin: 5px 0 0;
+  padding: 0 0 0 5px;
+}
+
+.sidebar ul li {
+  padding: 5px;
+}
+
+
+.activeAnchor {
+  background-color: #08c;
+  color: white;
+}
+
+.wall-content {
+  margin-left: 255px;
+}
+
+
+
+/* Gallery */
+.image {
+  width: 1280px;
+  height: 592px;
+  position: relative;
+}
+
+/*
+.image li {
+  background-size: auto;
+  background-position: center center;
+}
+*/
+
+.lightbox {
+  position: relative;
   width: 100%;
   overflow: scroll;
   white-space: nowrap;

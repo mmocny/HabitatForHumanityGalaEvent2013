@@ -9,18 +9,8 @@ angular.module('habitat').factory('content', function() {
       2: ['cat6.jpg'] // /gallery/2
     },
     wall: {
-      1: { // /wall/1
-        title: 'Wall Page 1',
-        sections: [{
-          heading: 'Human Readable',
-          anchor:  'machine-readable-anchor-name',
-          text: ['This is the actual body text.', 'Each string becomes a <p> tag.']
-        }, {
-          heading: 'I\'m another section',
-          anchor:  'my-anchor',
-          text: ['Just one paragraph this time.']
-        }]
-      }
+      1: '1.html',
+      2: '2.html'
     }
   };
 });

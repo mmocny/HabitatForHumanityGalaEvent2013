@@ -1,0 +1,9 @@
+<div class="wall">
+  <div class="sidebar">
+    <ul>
+      <li ng-repeat="a in anchors" ng-class="{ activeAnchor: activeAnchor == $index }" ng-click="showAnchor($index)">{{ a.text }}
+    </ul>
+  </div>
+
+  <div class="wall-content" ng-include="content"></div>
+</div>
