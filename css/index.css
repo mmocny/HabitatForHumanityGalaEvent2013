@@ -74,39 +74,37 @@ div, img {
 
 
 /* Gallery */
-.image {
-  width: 1280px;
-  height: 592px;
-  position: relative;
-}
-
-/*
-.image li {
-  background-size: auto;
-  background-position: center center;
-}
-*/
-
 .lightbox {
-  position: relative;
   width: 100%;
   height: 100%;
-  background-color: #111;
+  background-color: #333;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rn-carousel-container {
+  height: 100%;
+}
+
+ul.rn-carousel-slides {
+  height: 100%;
+}
+
+.carousel {
+}
+
+.imgbox {
+  position: relative;
+  height: 100%;
 }
 
 .galleryimg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   margin: auto;
-  width: 400px;
-  height: 400px;
-}
-
-div.layer {
-  background-color: rgba(0,0,0,0.5);
-  padding: 5px;
-  font-size: 10px;
-}
-
-ul li {
-  list-style-type: none;
+  max-height: 500px;
 }
 
