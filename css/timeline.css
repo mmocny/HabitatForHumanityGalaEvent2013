@@ -5,14 +5,15 @@
   position: relative;
   background-image:url(../assets/timeline_houses_small.png);
   background-repeat: repeat-x;
-  height:80px;
-  width: 2560px;
+  height:100%;
+  //width: 2560px;
+  width: 100%;
 }
 .timeline-dot-container {
   width: 40px;
   height: 40px;
+  bottom: 0px;
   position:absolute;
-  top: 40px;
   text-align: center;
   line-height: 40px;
   -webkit-tap-highlight-color: rgba(0,0,0,0);

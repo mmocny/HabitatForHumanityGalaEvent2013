@@ -13,37 +13,46 @@ div, img {
 
 /* Blocks */
 #timeline {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  top: 0px;
+
   overflow: scroll;
   overflow-y: hidden;
-  width: 100%;
 }
 #timeline::-webkit-scrollbar {
     display: none;
 }
 
 #title {
+  position: absolute;
   height: 50px;
-  font-size: 30pt;
   width: 100%;
+  top: 80px;
+
+  font-size: 30pt;
   background-color: red;
   text-align: center;
 }
 
 #content {
-  background-color: white;
-  top: 160px;
-  bottom: 52px;
-  position: fixed;
+  position: absolute;
   width: 100%;
+  top: 130px;
+  bottom: 52px;
+
+  background-color: white;
 }
 
 #toolbar {
-  width: 100%;
+  position: absolute;
   height: 50px;
-  position: fixed;
+  width: 100%;
   bottom: 0;
-  background-color: black;
   padding: 1px 0;
+
+  background-color: black;
 }
 
 /* Content */
