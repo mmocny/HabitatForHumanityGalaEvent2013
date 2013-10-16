@@ -12,27 +12,47 @@ div, img {
 }
 
 /* Blocks */
-.timeline {
+#timeline {
+  position: absolute;
+  height: 80px;
   width: 100%;
-  height: 160px;
-  background-color: green;
+  top: 0px;
+
+  overflow: scroll;
+  overflow-y: hidden;
+}
+#timeline::-webkit-scrollbar {
+    display: none;
 }
 
-.content {
-  background-color: white;
-  top: 160px;
-  bottom: 52px;
-  position: fixed;
-  width: 100%;
-}
-
-.toolbar {
-  width: 100%;
+#title {
+  position: absolute;
   height: 50px;
-  position: fixed;
+  width: 100%;
+  top: 80px;
+
+  font-size: 30pt;
+  background-color: red;
+  text-align: center;
+}
+
+#content {
+  position: absolute;
+  width: 100%;
+  top: 130px;
+  bottom: 52px;
+
+  background-color: white;
+}
+
+#toolbar {
+  position: absolute;
+  height: 50px;
+  width: 100%;
   bottom: 0;
-  background-color: black;
   padding: 1px 0;
+
+  background-color: black;
 }
 
 /* Content */
