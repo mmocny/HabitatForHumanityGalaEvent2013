@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+}
+.timeline-line-container {
+  position: relative;
+  background-image:url(../assets/timeline_houses_small.png);
+  background-repeat: repeat-x;
+  height:80px;
+  width: 2560px;
+}
+.timeline-dot-container {
+  width: 40px;
+  height: 40px;
+  position:absolute;
+  top: 40px;
+  text-align: center;
+  line-height: 40px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.timeline-dot {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background: #666;
+  -webkit-transition: width .2s linear, height .2s linear;
+  display: inline-block;
+  vertical-align: middle;
+}
+.timeline-dot-family .timeline-dot {
+  background: #333;
+}
+.timeline-dot-active .timeline-dot {
+  width:24px;
+  height:24px;
+}
+.timeline-title-container {
+  position:relative;
+  text-align:center;
+  font-size: 19pt;
+  font-weight: bold;
+}
+.timeline-title {
+  position: absolute;
+  left:0;
+  right:0;
+  -webkit-transition: -webkit-transform .2s ease-out, opacity .2s ease-out;
+  -webkit-transform: scale3d(.1, .1, 1);
+  opacity: 1;
+}
+.timeline-title-inactive {
+  opacity: 0;
+}
+.timeline-title-active {
+  -webkit-transform: scale3d(1, 1, 1);
+}
+.timeline-year-container {
+  position: absolute;
+  width: 200px;
+  margin-left: -80px; /* 200 / 2 - dot_container / 2 */
+  text-align: center;
+}
+.timeline-year {
+  position: absolute;
+  font-size: 30pt;
+  width: 100%;
+  -webkit-transition: -webkit-transform .2s ease-out, opacity .2s ease-out;
+  -webkit-transform: scale3d(.1, .1, 1) translate3d(0,0,0);
+}
+.timeline-dot-active .timeline-year {
+  -webkit-transform: scale3d(1, 1, 1) translate3d(0,-34px,0);
+}
