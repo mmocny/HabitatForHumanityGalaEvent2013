@@ -2,43 +2,55 @@
 var timelineData = [
 {
   title: '25th Anniversary Gala',
-  year: '2013'
+  year: '2013',
+  hash: '/wall/gala',
 }, {
   title: 'Terry Ann Thompson',
   year: '2012',
-  familyStory: true
+  familyStory: true,
+  hash: '/gallery/family_thompson',
 }, {
   title: '1st Condominium Project (Cherry St)',
-  year: '2006-2009'
+  year: '2006-2009',
+  hash: '/wall/first_condo',
 }, {
   title: 'Cambridge ReStore Opens',
-  year: '2005'
+  year: '2005',
+  hash: '/wall/restore_cambridge',
 }, {
   title: 'Pam and Roger Cruz',
   year: '2003',
-  familyStory: true
+  familyStory: true,
+  hash: '/gallery/family_cruz',
 }, {
   title: 'HFHWR hosts 1st Women Build',
-  year: '2000'
+  year: '2000',
+  hash: '/wall/first_build_women',
 }, {
   title: '1st Annual Charity Golf Tourney',
-  year: '1998'
+  year: '1998',
+  hash: '/gallery/first_golf',
 }, {
   title: '1st Build Cambridge',
-  year: '1996'
+  year: '1996',
+  hash: '/gallery/first_build_cambridge',
 }, {
   title: 'Jimmy Carter Work Project',
-  year: '1993'
+  year: '1993',
+  hash: '/wall/jimmy',
 }, {
   title: 'Opening ReStore Waterloo',
-  year: '1993'
+  year: '1993',
+  hash: '/wall/restore_waterloo',
 }, {
   title: 'Ellie and Ken Fields',
   year: '1992',
-  familyStory: true
+  familyStory: true,
+  hash: '/gallery/family_fields',
 }, {
   title: 'HFHWR is Incorporated',
   year: '1988',
+  hash: '/wall/incorporated',
 }];
 
 var dotEls = [];
@@ -87,6 +99,7 @@ function onTimelineDotClick(dotIndex) {
   yearEls[activeDotIndex].style.display = '';
 
   document.getElementById('title').textContent = timelineData[activeDotIndex].title;
+  window.location.hash = timelineData[activeDotIndex].hash;
 }
 
 document.addEventListener('DOMContentLoaded', timelineInit);

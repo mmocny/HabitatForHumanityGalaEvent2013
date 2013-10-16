@@ -5,12 +5,32 @@ angular.module('habitat').factory('content', function() {
   return {
     mainPage: 'I\'m the main page content, yay.',
     gallery: {
-      1: ['cat1.jpg', 'cat2.jpg', 'cat3.jpg', 'cat4.jpg', 'cat5.jpg'], // /gallery/1
-      2: ['cat6.jpg'] // /gallery/2
+      family_cruz: [''],
+      family_fields: [''],
+      family_thompson: [''],
+      first_build_cambridge: [''],
+      first_build_women: [''],
+      first_condo: [''],
+      first_golf: [''],
+      gala: [''],
+      incorporated: [''],
+      jimmy: [''],
+      restore_cambridge: [''],
+      restore_waterloo: [''],
     },
     wall: {
-      1: '1.html',
-      2: '2.html'
+      family_cruz: 'family_cruz.html',
+      family_fields: 'family_fields.html',
+      family_thompson: 'family_thompson.html',
+      first_build_cambridge: 'first_build_cambridge.html',
+      first_build_women: 'first_build_women.html',
+      first_condo: 'first_condo.html',
+      first_golf: 'first_golf.html',
+      gala: 'gala.html',
+      incorporated: 'incorporated.html',
+      jimmy: 'jimmy.html',
+      restore_cambridge: 'restore_cambridge.html',
+      restore_waterloo: 'restore_waterloo.html',
     }
   };
 });
