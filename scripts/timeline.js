@@ -12,11 +12,11 @@ var timelineData = [
 }, {
   title: '1st Condominium Project (Cherry St)',
   year: '2006-2009',
-  hash: '/wall/first_condo',
+  hash: '/gallery/first_condo',
 }, {
   title: 'Cambridge ReStore Opens',
   year: '2005',
-  hash: '/wall/restore_cambridge',
+  hash: '/gallery/restore_cambridge',
 }, {
   title: 'Pam and Roger Cruz',
   year: '2003',
@@ -25,7 +25,7 @@ var timelineData = [
 }, {
   title: 'HFHWR hosts 1st Women Build',
   year: '2000',
-  hash: '/wall/first_build_women',
+  hash: '/gallery/first_build_women',
 }, {
   title: '1st Annual Charity Golf Tourney',
   year: '1998',
@@ -37,11 +37,11 @@ var timelineData = [
 }, {
   title: 'Jimmy Carter Work Project',
   year: '1993',
-  hash: '/wall/jimmy',
+  hash: '/gallery/jimmy',
 }, {
   title: 'Opening ReStore Waterloo',
   year: '1993',
-  hash: '/wall/restore_waterloo',
+  hash: '/gallery/restore_waterloo',
 }, {
   title: 'Ellie and Ken Fields',
   year: '1992',
@@ -50,7 +50,7 @@ var timelineData = [
 }, {
   title: 'HFHWR is Incorporated',
   year: '1988',
-  hash: '/wall/incorporated',
+  hash: '/gallery/incorporated',
 }];
 
 var dotEls = [];
