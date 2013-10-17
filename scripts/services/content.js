@@ -3,7 +3,6 @@
 // service that gets injected. Not unlike a Node module.
 angular.module('habitat').factory('content', function() {
   return {
-    mainPage: 'I\'m the main page content, yay.',
     wall: {
       family_cruz: 'family_cruz.html',
       family_fields: 'family_fields.html',
