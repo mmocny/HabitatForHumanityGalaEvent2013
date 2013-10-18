@@ -7,7 +7,7 @@ angular.module('habitat').directive('hbTimeline', function($rootScope, $location
       year: 'Tonight',
       hash: '/wall/gala',
     }, {
-      title: '25th Anniversary Gala',
+      title: '25 Years of HFHWR',
       year: '2013',
       hash: '/wall/25Years',
     }, {

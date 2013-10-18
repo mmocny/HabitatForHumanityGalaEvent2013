@@ -4,6 +4,7 @@
 angular.module('habitat').factory('content', function() {
   return {
     wall: {
+      25Years: '25Years.html',
       family_cruz: 'family_cruz.html',
       family_fields: 'family_fields.html',
       family_thompson: 'family_thompson.html',
