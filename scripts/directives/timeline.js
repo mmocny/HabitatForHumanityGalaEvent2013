@@ -4,8 +4,12 @@ angular.module('habitat').directive('hbTimeline', function($rootScope, $location
   var timelineData = [
     {
       title: '25th Anniversary Gala',
-      year: '2013',
+      year: 'Tonight',
       hash: '/wall/gala',
+    }, {
+      title: '25th Anniversary Gala',
+      year: '2013',
+      hash: '/wall/25Years',
     }, {
       title: 'Terry Ann Thompson',
       year: '2012',
