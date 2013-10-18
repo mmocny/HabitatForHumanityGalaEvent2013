@@ -40,19 +40,9 @@ div, img {
   position: absolute;
   width: 100%;
   top: 130px;
-  bottom: 52px;
+  bottom: 0;
 
   background-color: white;
-}
-
-#toolbar {
-  position: absolute;
-  height: 50px;
-  width: 100%;
-  bottom: 0;
-  padding: 1px 0;
-
-  background-color: black;
 }
 
 /* Content */
