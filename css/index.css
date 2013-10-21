@@ -83,11 +83,11 @@ div, img {
   min-height: 90%;
 }
 
-.wall-content > div:nth-child(2n+1) {
+.wall-content > div:nth-of-type(2n+1) {
   background-color: pink;
 }
 
-.wall-content > div:nth-child(2n+2) {
+.wall-content > div:nth-of-type(2n+2) {
   background-color: purple;
 }
 
