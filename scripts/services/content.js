@@ -48,7 +48,7 @@ angular.module('habitat').factory('content', function() {
         //'family_thompson/11.jpg',
       ],
       first_build_cambridge: [
-        '',
+        'first_build_cambridge/1.jpg',
       ],
       first_build_women: [
         'first_build_women/1.jpg',
