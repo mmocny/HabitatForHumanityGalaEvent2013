@@ -69,7 +69,6 @@ div, img {
   padding: 5px;
 }
 
-
 .activeAnchor {
   background-color: #08c;
   color: white;
@@ -77,20 +76,22 @@ div, img {
 
 .wall-content {
   height: 100%;
-  margin-left: 255px;
   overflow: scroll;
 }
 
-/*.wall-content:not(:first-child) {*/
-.wall-content > * {
+.wall div:nth-child(2) { /* if sidebar is shown, bump wall-content */
+  /*margin-left: 255px;*/
+}
+
+.wall-content > div {
   min-height: 90%;
 }
 
-.wall-content > :nth-child(2n) {
+.wall-content > div:nth-child(2n+1) {
   background-color: pink;
 }
 
-.wall-content > :nth-child(2n+1) {
+.wall-content > div:nth-child(2n+2) {
   background-color: purple;
 }
 

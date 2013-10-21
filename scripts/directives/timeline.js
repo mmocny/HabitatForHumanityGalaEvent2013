@@ -27,7 +27,7 @@ angular.module('habitat').directive('hbTimeline', function($rootScope, $location
       title: 'Pam and Roger Cruz',
       year: '2003',
       familyStory: true,
-      hash: '/gallery/family_cruz',
+      hash: '/wall/family_cruz',
     }, {
       title: '1st Women\'s Build',
       year: '2000',
