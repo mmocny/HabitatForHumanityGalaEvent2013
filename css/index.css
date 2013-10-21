@@ -83,7 +83,7 @@ div, img {
 
 /*.wall-content:not(:first-child) {*/
 .wall-content > * {
-  padding-bottom: 300px;
+  min-height: 90%;
 }
 
 .wall-content > :nth-child(2n) {
@@ -94,8 +94,8 @@ div, img {
   background-color: purple;
 }
 
-.wall-content h2 {
-  margin-top: 0;
+.wall-content * {
+  margin: 0;
 }
 
 /* Gallery */
