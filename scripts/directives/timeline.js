@@ -29,15 +29,15 @@ angular.module('habitat').directive('hbTimeline', function($rootScope, $location
       familyStory: true,
       hash: '/gallery/family_cruz',
     }, {
-      title: 'HFHWR hosts 1st Women Build',
+      title: '1st Women\'s Build',
       year: '2000',
       hash: '/gallery/first_build_women',
     }, {
-      title: '1st Annual Charity Golf Tourney',
+      title: '1st Annual Charity Golf Tournament',
       year: '1998',
       hash: '/gallery/first_golf',
     }, {
-      title: '1st Build Cambridge',
+      title: '1st Cambridge Build',
       year: '1996',
       hash: '/gallery/first_build_cambridge',
     }, {

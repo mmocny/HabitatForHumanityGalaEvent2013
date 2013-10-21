@@ -23,13 +23,13 @@ angular.module('habitat').factory('content', function() {
         '',
       ],
       family_fields: [
+        'family_fields/7.jpg',
         'family_fields/1.jpg',
         'family_fields/2.jpg',
         'family_fields/3.jpg',
         'family_fields/4.jpg',
         'family_fields/5.jpg',
         'family_fields/6.jpg',
-        'family_fields/7.jpg',
         'family_fields/8.jpg',
       ],
       family_thompson: [
@@ -58,7 +58,6 @@ angular.module('habitat').factory('content', function() {
       ],
       first_condo: [
         'first_condo/1.jpg',
-        'first_condo/2.jpg',
         'first_condo/3.jpg',
       ],
       first_golf: [
@@ -69,8 +68,8 @@ angular.module('habitat').factory('content', function() {
         '',
       ],
       incorporated: [
-        'incorporated/1.jpg',
         'incorporated/2.jpg',
+        'incorporated/1.jpg',
       ],
       jimmy: [
         'jimmy/1.jpg',
