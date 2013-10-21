@@ -79,10 +79,6 @@ div, img {
   overflow: scroll;
 }
 
-.wall div:nth-child(2) { /* if sidebar is shown, bump wall-content */
-  /*margin-left: 255px;*/
-}
-
 .wall-content > div {
   min-height: 90%;
 }
