@@ -20,7 +20,7 @@ angular.module('habitat').factory('content', function() {
     },
     gallery: {
       family_cruz: [
-        '',
+        'family_cruz/1.jpg',
       ],
       family_fields: [
         'family_fields/7.jpg',
