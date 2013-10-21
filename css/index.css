@@ -81,7 +81,22 @@ div, img {
   overflow: scroll;
 }
 
+/*.wall-content:not(:first-child) {*/
+.wall-content > * {
+  padding-bottom: 300px;
+}
 
+.wall-content > :nth-child(2n) {
+  background-color: pink;
+}
+
+.wall-content > :nth-child(2n+1) {
+  background-color: purple;
+}
+
+.wall-content h2 {
+  margin-top: 0;
+}
 
 /* Gallery */
 .lightbox {
