@@ -52,7 +52,7 @@ angular.module('habitat').directive('hbTimeline', function($rootScope, $location
       title: 'Ellie and Ken Fields',
       year: '1992',
       familyStory: true,
-      hash: '/gallery/family_fields',
+      hash: '/wall/family_fields',
     }, {
       title: 'HFHWR is Incorporated',
       year: '1988',
