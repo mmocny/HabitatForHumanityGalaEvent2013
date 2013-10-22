@@ -72,6 +72,7 @@ angular.module('habitat').factory('content', function() {
         'incorporated/1.jpg',
       ],
       jimmy: [
+        'jimmy/13.jpg',
         'jimmy/12.jpg',
         'jimmy/6.jpg',
         'jimmy/8.jpg',
