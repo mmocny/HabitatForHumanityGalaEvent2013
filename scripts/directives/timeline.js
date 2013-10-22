@@ -3,7 +3,7 @@
 angular.module('habitat').directive('hbTimeline', function($rootScope, $location) {
   var timelineData = [
     {
-      title: '25th Anniversary Gala',
+      title: 'Diamond Sponsor: Toyota Motor Manufacturing',
       year: 'Tonight',
       hash: '/wall/gala',
     }, {
