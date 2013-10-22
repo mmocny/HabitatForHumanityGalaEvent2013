@@ -15,8 +15,9 @@ angular.module('habitat').controller('wall', function($scope, $rootScope, $route
       }
 
       var scrollPosition = wallContentElement[0].scrollTop;
+      var midScrollPosition = scrollPosition + (wallContentElement[0].offsetHeight / 2);
       for (var i = 0; i < $rootScope.anchors.length; i++) {
-        if (scrollPosition >= $rootScope.anchors[i].scrollPosition) {
+        if (midScrollPosition >= $rootScope.anchors[i].scrollPosition) {
           $scope.state.activeAnchor = i;
         } else {
           break;
