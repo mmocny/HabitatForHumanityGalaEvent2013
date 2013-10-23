@@ -23,7 +23,7 @@ div, img {
   overflow-y: hidden;
 }
 #timeline::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 #title {
@@ -71,7 +71,8 @@ div, img {
 
 .sidebar ul li {
   padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .activeAnchor {
