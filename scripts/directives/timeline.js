@@ -14,7 +14,7 @@ angular.module('habitat').directive('hbTimeline', function($rootScope, $location
       title: '2012: Terry Ann Thompson',
       year: '2012',
       familyStory: true,
-      hash: '/gallery/family_thompson',
+      hash: '/wall/family_thompson',
     }, {
       title: '2006-2009: 1st Condominium Project (Cherry St)',
       year: '2006-2009',
