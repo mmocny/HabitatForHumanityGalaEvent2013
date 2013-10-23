@@ -4,6 +4,7 @@ html {
 
 body {
   height: 100%;
+  background-color: #333;
 }
 
 div, img {
@@ -77,6 +78,7 @@ div, img {
 .wall-content {
   height: 100%;
   overflow: scroll;
+  background-color: #333;
 }
 
 .wall-content > div {
@@ -102,7 +104,11 @@ div, img {
 .lightbox {
   width: 100%;
   height: 100%;
-  background-color: #333;
+  background-color: #333333;
+  background-image:url('/assets/logos/logo_25_bg333.png');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:bottom right;
   /*text-align: center;*/
   vertical-align: middle;
 }
@@ -131,13 +137,14 @@ ul.rn-carousel-slides {
   bottom: 20px;
   margin: auto;
   height: 575px;
+  opacity: 0.9;
 }
 
 ul.rn-carousel-slides > li {
-  width: 896px;
+  width: 1024px;
 }
 
 ul.rn-carousel-slides > li:first-child {
-  margin-left: 192px;
+  margin-left: 128px;
 }
 

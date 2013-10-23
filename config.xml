@@ -9,4 +9,5 @@
 
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="false" />
+    <preference name="backgroundColor" value="#333" />
 </widget>

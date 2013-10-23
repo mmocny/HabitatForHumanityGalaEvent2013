@@ -319,7 +319,7 @@ angular.module('angular-carousel')
           /* trigger carousel position update */
           skipAnimation = !!forceSkipAnimation || skipAnimation;
           if (containerWidth===0) updateContainerWidth();
-          offset = Math.round(scope.carouselCollection.getRelativeIndex() * -(896));
+          offset = Math.round(scope.carouselCollection.getRelativeIndex() * -(1024)); /* HACK */
           if (skipAnimation===true) {
               carousel.removeClass('rn-carousel-animate')
                   .addClass('rn-carousel-noanimate')
