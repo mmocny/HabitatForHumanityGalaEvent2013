@@ -167,6 +167,8 @@ div, img {
 div.auction-item {
   width: 390px;
   margin-right: 10px;
+  vertical-align: top;
+  margin-bottom: 10px;
 }
 
 div.auction-item .title {
