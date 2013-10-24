@@ -150,6 +150,7 @@ div, img {
   padding: 10px;
   display: inline-block;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 .quotes img,
 .bio img {
