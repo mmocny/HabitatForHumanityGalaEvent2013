@@ -17,22 +17,35 @@
     height: 100%;
     margin: auto;
   }
-  .program table {
-    border: 1px black solid;
+  .program > div {
+    width: 80%;
+    border-radius: 5px;
+    padding: 0 30px;
     background-color: #eee;
     margin: auto;
   }
-  .program td {
-    border: 1px black solid;
-    padding: 5px;
+  .program table {
+    width: 100%;
   }
-  .program td:first-of-type {
-    text-align: right;
-    padding-left: 20px;
-  }
-  .program tr:first-of-type td {
-    font-weight: bold;
+  .program thead th {
+    //font-weight: bold;
+    font-weight: 200;
+    font-style: italic;
     background-color: #aaa;
+    border-bottom: 1px solid #ccc;
+  }
+  .program tbody th {
+    font-weight: 200;
+    font-style: italic;
+    padding: 10px 20px 10px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+  }
+  .program tbody td {
+    padding: 10px 5px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
   }
   .light img {
     max-height: 100px;
@@ -47,21 +60,22 @@
 
 <div class="program">
 <h2 hb-anchor="program">Program</h2>
+<div>
 <table cellpadding="0" cellspacing="0">
     <tbody>
-      <tr><td>Time</td><td>Description</td></tr>
-      <tr><td>5:00 - 6:00pm</td><td>General Reception<br/>Silent Auction (5:00 – 8:00pm)</td></tr>
-      <tr><td>6:00pm</td><td>Formal Event Begins</td></tr>
-      <tr><td>6:20pm</td><td>COO Welcome Address </td></tr>
-      <tr><td>6:30pm</td><td>Devotion and Dinner</td></tr>
-      <tr><td>8:00pm</td><td>Silent Auction Closes</td></tr>
-      <tr><td>8:15pm</td><td>Manulife Financial Address<br/>Community Builder Award</td></tr>
-      <tr><td>8:30pm</td><td>Toyota Motor Manufacturing Canada Address</td></tr>
-      <tr><td>8:30pm</td><td>Keynote Speaker: Frank O’Dea </td></tr>
-      <tr><td>9:00pm</td><td>Closing Address</td></tr>
-      <tr><td>9:15pm</td><td>Silent Auction Checkout<br/>(Located in the lobby)</td></tr>
+      <tr><th>5:00pm - 6:00pm</th><td>General Reception<br/>Silent Auction (5:00pm – 8:00pm)</td></tr>
+      <tr><th>6:00pm</th><td>Formal Event Begins</td></tr>
+      <tr><th>6:20pm</th><td>COO Welcome Address </td></tr>
+      <tr><th>6:30pm</th><td>Devotion and Dinner</td></tr>
+      <tr><th>8:00pm</th><td>Silent Auction Closes</td></tr>
+      <tr><th>8:15pm</th><td>Manulife Financial Address<br/>Community Builder Award</td></tr>
+      <tr><th>8:30pm</th><td>Toyota Motor Manufacturing Canada Address</td></tr>
+      <tr><th>8:30pm</th><td>Keynote Speaker: Frank O’Dea </td></tr>
+      <tr><th>9:00pm</th><td>Closing Address</td></tr>
+      <tr><th>9:15pm</th><td>Silent Auction Checkout<br/>(Located in the lobby)</td></tr>
   </tbody>
 </table>
+</div>
 </div>
 
 <div class="light">
