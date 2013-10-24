@@ -102,6 +102,13 @@ div, img {
   padding-bottom: 100px;
 }
 
+.wall-content p,
+.wall-content h2,
+.wall-content h3,
+.wall-content h4 {
+  font-size: larger;
+}
+
 .wall-content > div > h2 {
   text-align: center;
   margin: 10px 0;
@@ -152,7 +159,6 @@ div, img {
 .bio p {
   margin-bottom: 10px;
   text-indent: 30px;
-  font-size: 22px;
 }
 .bio > div > h3,
 .bio > div > h4,
@@ -169,14 +175,27 @@ div, img {
   padding-bottom: 50px;
 }
 
-div.auction-item {
-  width: 390px;
-  margin-right: 10px;
+.auction-column {
+  width: 49%;
+  display: inline-block;
   vertical-align: top;
-  margin-bottom: 10px;
+  padding: 0 5px;
 }
 
-div.auction-item .title {
+.auction-item {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #eee;
+  margin-bottom: 10px;
+}
+.auction-item:after {
+  clear:both;
+  content: " ";
+  display: block;
+}
+
+.auction-item .title {
   font-size: 30px;
   text-align: left;
   float: left;
@@ -184,11 +203,11 @@ div.auction-item .title {
   line-height: 1em;
   margin-bottom: 10px;
 }
-div.auction-item .description {
+.auction-item .description {
   float: right;
   width: 213px;
 }
-div.auction-item .donor {
+.auction-item .donor {
   float: left;
   font-size: 13px;
   width: 140px;
