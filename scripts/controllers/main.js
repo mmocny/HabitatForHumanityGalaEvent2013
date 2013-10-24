@@ -24,7 +24,7 @@ function nextSlide() {
   el.triggerHandler('click');
 }
 
-stopSlideshow();
+//stopSlideshow();
 
 document.addEventListener('DOMContentLoaded', function () {
   document.body.addEventListener('touchstart', stopSlideshow);
