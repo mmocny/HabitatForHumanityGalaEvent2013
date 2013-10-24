@@ -2,6 +2,7 @@
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  line-height: 1.4em;
 }
 
 html {
@@ -39,6 +40,7 @@ div, img {
   width: 100%;
 
   font-size: 32pt;
+  line-height: 1em;
   background-color: #739fbc;
   text-align: center;
   color: #eee;
@@ -120,6 +122,11 @@ div, img {
 }
 .wall-content > div.light {
   background-color: white;
+  text-align: center;
+}
+
+.wall-content > div.light img {
+  padding: 20px;
 }
 
 .wall-content > div > h2 {
@@ -131,16 +138,56 @@ div, img {
 }
 
 .quotes > div {
-  margin: 10px;
+  //margin: 10px 80px;
   background-color: #eee;
   padding: 10px;
   display: inline-block;
-  text-align: right;
+//  text-align: right;
   border-radius: 5px;
 }
+.quotes img {
+  margin: 10px;
+}
+.bio div div {
+  margin: 6px 10px 10px 210px;
+}
+
+.bio > div {
+  background-color: #eee;
+  padding: 10px;
+  display: inline-block;
+//  text-align: right;
+  border-radius: 5px;
+}
+.bio > div > h3,h4,
 .quotes > div > h3,h4 {
   text-align: center;
 }
+
+div.auction-item {
+  width: 390px;
+  margin-right: 10px;
+}
+
+div.auction-item .title {
+  font-size: 30px;
+  text-align: left;
+  float: left;
+  width: 150px;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+div.auction-item .description {
+  float: right;
+  width: 213px;
+}
+div.auction-item .donor {
+  float: left;
+  font-size: 13px;
+  width: 140px;
+  font-style: italic;
+}
+
 .shortlist {
   text-align: center;
 }
