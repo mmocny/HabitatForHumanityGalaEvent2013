@@ -42,8 +42,8 @@ ul.rn-carousel-slides > li {
 .rn-carousel-indicator{
   width:100%;
   text-align:center;
-  position:relative;
-  bottom:20px;
+  position:absolute;
+  top:0;
   height:20px;
   background-color:#000;
   background-color:rgba(0,0,0,.6);
