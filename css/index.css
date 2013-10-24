@@ -22,7 +22,7 @@ div, img {
 #timeline {
   position: absolute;
   top: 50px;
-  height: 80px;
+  height: 70px;
   width: 100%;
 
   overflow: scroll;
@@ -47,7 +47,7 @@ div, img {
 
 #content {
   position: absolute;
-  top: 130px;
+  top: 120px;
   bottom: 0;
   width: 100%;
 
