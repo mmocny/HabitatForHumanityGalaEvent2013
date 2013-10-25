@@ -172,8 +172,8 @@ div, img {
 {
   float: left;
   vertical-align: top;
-  height: 300px;
-  padding-bottom: 50px;
+  height: 250px;
+  margin-bottom: 145px;
 }
 
 .auction-column {
