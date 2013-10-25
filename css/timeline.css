@@ -22,7 +22,7 @@
   display: block;
   vertical-align: middle;
   background-image:url(../assets/timeline_houses_dark.png);
-  opacity: 0;
+  opacity: 0.01;
   -webkit-transition: opacity .2s linear;
 }
 .timeline-dot-active .timeline-dot {
