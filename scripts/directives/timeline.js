@@ -65,7 +65,7 @@ angular.module('habitat').directive('hbTimeline', function($rootScope, $location
       offset: "845px",
       width: "70px"
     }, {
-      title: '1993: Opening ReStore Waterloo',
+      title: '1993: Opening Waterloo ReStore',
       year: '1993',
       hash: '/gallery/restore_waterloo',
       offset: "915px",
