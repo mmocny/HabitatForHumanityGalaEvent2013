@@ -263,7 +263,7 @@ ul.rn-carousel-slides {
   bottom: 20px;
   margin: auto;
   height: 575px;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
 }
 
 ul.rn-carousel-slides > li {
